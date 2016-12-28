@@ -2,8 +2,8 @@
 ## functions do
 
 ## The function makeCacheMatrix caches the inverse of a matrix object.
-# It includes 4 functions (set, get, setinverse, getinverse). The set functions change the vector stored in the main function and the
-#get functions return the stored values from the main function.
+#  It includes 4 functions (set, get, setinverse, getinverse). The set functions change the vector stored in the main function 
+#  and the get functions return the stored values from the main function.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -21,7 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## This function calculates the inverse matrix unless it is already cached in unchanged form in which case it will retrieve the cached version.
+## This function calculates the inverse matrix unless it is already cached in unchanged form in which case it will retrieve 
+#  the cached version.
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
